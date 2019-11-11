@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- calculator container -->
+    <div id="calc" class="calculator">
+      <!-- calculator screen -->
+      <div class="calc-display">
+        <input
+          type="text"
+          id="display"
+          class="calculator-screen"
+          value="0"
+          disabled
+        />
+      </div>
+
+      <!-- calculator buttons -->
+      <div id="wrapper" class="">
+        <button type="button" value="+" class="item top item-1">+</button>
+        <button type="button" value="-" class="item top item-2">-</button>
+        <button type="button" value="(" class="item top item-71">(</button>
+        <button type="button" value=")" class="item top item-72">)</button>
+
+        <button type="button" value="7" class="item item-5">7</button>
+        <button type="button" value="8" class="item item-6">8</button>
+        <button type="button" value="9" class="item item-7">9</button>
+        <button type="button" value="*" class="item oper item-3">&times</button>
+        <button type="button" value="6" class="item item-10">6</button>
+
+        <button type="button" value="4" class="item item-8">4</button>
+        <button type="button" value="5" class="item item-9">5</button>
+        <button type="button" value="/" class="item oper item-4">
+          &divide
+        </button>
+        <button type="button" value="1" class="item item-11">1</button>
+        <button type="button" value="2" class="item item-12">2</button>
+        <button type="button" value="3" class="item item-13">3</button>
+        <button type="button" value="0" class="item item-14">0</button>
+        <button type="button" value="." class="item item-15">.</button>
+        <button type="button" value="clear" class="item-special-1 item-16">
+          AC
+        </button>
+        <button type="button" value="=" class="item-special-2 item-17">
+          =
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
