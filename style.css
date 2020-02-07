@@ -6,8 +6,8 @@ body {
 
 #calc {
   /* border: 1px solid grey; */
-  width: 400px;
-  height: 500px;
+  width: 25%;
+  /* height: 500px; */
   position: absolute;
   top: 50%;
   left: 50%;
